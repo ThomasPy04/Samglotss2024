@@ -1,0 +1,70 @@
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(91, 77, 99);
+  }
+  .image{
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    opacity: 0.9;
+  }
+  
+  .center{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .contact-section {
+    margin-bottom: 40px;
+  }
+  .contact-section h2 {
+    margin-bottom: 10px;
+  }
+  .contact-section p{
+    color: white;
+  }
+  .contact-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .contact-info i {
+    margin-right: 10px;
+  }
+  .contact-info a {
+    color: #f8f9f9;
+    text-decoration: none;
+  }
+  span {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+  @media screen and (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+    h1 {
+      font-size: 24px;
+    }
+  }
